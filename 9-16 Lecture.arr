@@ -83,3 +83,41 @@ above(twoCircles, blackRectangle)
 #Alt way, harder to read
 # above(beside(yellowCircle, yellowCircle),
 #   blackRectangle)
+
+
+#Greek Flag
+
+#defines white and blue stripes
+shortBlueStripe = rectangle(80, 10, "solid", "blue")
+
+shortWhiteStripe = rectangle(80, 10, "solid", "white")
+
+longBlueStripe = rectangle(120, 10, "solid", "blue")
+
+longWhiteStripe = rectangle(120, 10, "solid", "white")
+
+#creates white stripes for the cross
+crossStripe = rectangle(5, 40, "solid", "white")
+
+#puts the cross together
+cross = overlay(overlay(crossStripe, rotate(90, crossStripe)),
+  square(40, "solid", "blue"))
+
+
+#stacks short stripes
+shortStack = above(shortBlueStripe, shortWhiteStripe)
+
+fullShort = above(shortStack, shortStack)
+
+#Add the cross
+topHalf = beside(cross, fullShort)
+
+#stacks long stripes
+longStack = above(longBlueStripe, longWhiteStripe)
+
+fullLong = above(longStack, longStack)
+
+#full flag
+greekFlag = above(topHalf, fullLong)
+
+greekFlag
