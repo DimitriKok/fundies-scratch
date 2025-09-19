@@ -46,7 +46,7 @@ costOfT(4, "Go Team!")
 costOfT(7, "Hello World")
 
 
-fun celcius-to-fahrenheit(celcius):
+fun celcius-to-fahrenheit(celcius :: exactNum):
   doc: "fahrenheit-to-celcius: int -> int; Purpose: user inputs c and converts it to f"
   ((celcius * 9) / 5) + 32
 end
@@ -62,7 +62,7 @@ end
 fahrenheit-to-celcius(53.6)
 
 
-fun greekFlag(colOne , colTwo):
+fun greekFlag(colOne :: String, colTwo :: String):
   doc: "greekFlag: string :: string -> img; Purpose: creates a greek flag witht the colors of the users choice"
   #Greek Flag
 
