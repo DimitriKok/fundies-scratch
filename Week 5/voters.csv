@@ -1,0 +1,13 @@
+VoterID,DOB,Party,Address,City,County,Postcode
+1,12-05-1980,Labour,123 High Street,Bromley,London,BR1 5TG
+2,12/05/1975,Conservative,456 Church Lane,Manchester,Greater Manchester,M6 2QT
+3,08/07/1978,Liberal Democrat,789 Victoria Road,Birmingham,West Midlands,B124CN
+4,30/04/1992,Labour,135 King's Road,Edinburgh,Edinburgh,EH33HT
+5,23/09/1985,,246 Queen Street,Cardiff,Cardiff,CF1 1BA
+6,01/12/1990,,357 Park Avenue,Liverpool,Merseyside,l14 2de
+7,11-11-1970,Conservative,468 Mill Lane,Leeds,West Yorkshire ,LS14QN
+8,29/02/1988,Labour,579 Castle Street,Bristol,Bristol,BS1 1QL
+9,12/05/1980,Labour,123 High Street,Tooting,London,sw177pf
+10,15/07/1975,,680 The Crescent,Brighton,East Sussex,BN14QR
+11,05-03-1982,Labour,791 Market Square,Glasgow,Glasgow,G2 5PW
+12,20-08-1979,Green Party,852 Riverside Walk,Newcastle,Tyne and Wear,ne32ea

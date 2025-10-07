@@ -115,7 +115,7 @@ cpi-with-difference = build-column(cpi, "Difference", difference)
 cpi-with-difference
 
 fun pct-difference(r :: Row):
-  num-floor(((r["Aug-25"] - r["Aug-24"]) / ((r["Aug-25"] + r["Aug-24"]) / 2)) * 100)
+  num-floor(((r["Aug-25"] - r["Aug-24"]) / ((r["Aug-25"] + r["Aug-24"]) / 2)) * 100
 
 end
 
